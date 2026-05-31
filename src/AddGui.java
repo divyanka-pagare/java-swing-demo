@@ -15,8 +15,8 @@ public class AddGui {
 class Addition extends JFrame {
     public Addition() {
 
-        JTextField text1 = new JTextField();
-        JTextField text2 = new JTextField();
+        JTextField text1 = new JTextField(20);
+        JTextField text2 = new JTextField(20);
         JButton button = new JButton("OK");
         JLabel Label = new JLabel("Result");
 
