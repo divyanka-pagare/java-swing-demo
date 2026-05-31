@@ -12,14 +12,16 @@ public class FirstGUI {
 class Abc extends JFrame { // CardLayout 
     public Abc() {
 
-        setLayout(new FlowLayout()); //flowLayout, borderLayout, gridLayout, Null
+        
         JLabel label = new JLabel("Hello World!");
         JLabel name = new JLabel("Hey, I am Divyanka");
 
         add(label);
         add(name);
         
+        setLayout(new FlowLayout()); //flowLayout, borderLayout, gridLayout, Null
         setVisible(true);
         setSize(400, 400);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
